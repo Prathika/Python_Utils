@@ -1,4 +1,5 @@
 import docx
+import sys
 from docx import Document
 from openpyxl import Workbook
 
@@ -40,7 +41,6 @@ def write_to_xls(source_file, dest_file):
     work_book.save(dest_file)
 
 if __name__ == "__main__":
-    import sys
     if len(sys.argv) < 2:
         print("Please provide input docs file to convert into xlsx file")
     else:
