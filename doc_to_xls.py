@@ -4,10 +4,11 @@ from docx import Document
 from openpyxl import Workbook
 
 """
-    Python doc utils
+    Python doc utils - test
 
 """
 def get_input_xls_file_content(source_file):
+    # Point to proper source file
     if not source_file:
         source_file = '/opt/techgig/MLTickets/docs/SampleInputDoc1-FAQs.docx'
     doc_obj = Document(source_file)
