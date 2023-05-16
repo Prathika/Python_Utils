@@ -1,9 +1,9 @@
 from github import Github
 
 
-GIT_ACCESS_TOKEN = "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"
+GIT_ACCESS_TOKEN = ""
 USERNAME = "prathikasundar@gmail.com"
-PASSWORD = "Keerthu@2021"
+PASSWORD = ""
 BRANCH_TO_MERGE = "master"
 REPO_NAME = "Prathika/Python_Utils"
 
